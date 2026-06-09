@@ -6,7 +6,7 @@ public class findDistance {
         double yard = feet/3;
         double miles = yard/1760;
 
-        System.out.println("The distance in yard is "+ yard+ " and miles is "+miles);
+        System.out.print("The distance in yard is "+ yard+ " and miles is "+miles);
         
     }
 }

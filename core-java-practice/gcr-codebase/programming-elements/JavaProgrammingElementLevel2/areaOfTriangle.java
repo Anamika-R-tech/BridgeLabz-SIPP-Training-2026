@@ -8,7 +8,7 @@ public class areaOfTriangle {
         double areaCM = (base*height)/2;
         double areaInch = (areaCM/2.54);
 
-        System.out.println("The area in cm is "+areaCM+" and in inch is "+areaInch);
+        System.out.print("The area in cm is "+areaCM+" and in inch is "+areaInch);
 
     }
 }

@@ -8,6 +8,6 @@ public class division {
         int quotient = num1/num2;
         int remainder = num1%num2;
 
-        System.out.print("The quotient of two numbers is "+quotient+ " and remainder is "+remainder);
+        System.out.println("The quotient of two numbers is "+quotient+ " and remainder is "+remainder);
     }
 }

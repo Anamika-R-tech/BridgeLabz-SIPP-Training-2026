@@ -11,6 +11,6 @@ public class intOperation {
         int op3 = c + a / b;
         int op4 = a % b + c;
 
-        System.out.print("The value of op 1 is "+op1+" op 2 is "+op2+ " op3 is "+ op3+ " and op4 is "+op4+".");
+        System.out.println("The value of op 1 is "+op1+" op 2 is "+op2+ " op3 is "+ op3+ " and op4 is "+op4+".");
     }
 }

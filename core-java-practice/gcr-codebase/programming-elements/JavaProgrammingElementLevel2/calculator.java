@@ -8,6 +8,6 @@ public class calculator {
         int difference = num1 - num2;
         int product = num1*num2;
         double division =  num1 / num2;
-        System.out.println("The sum of "+num1 +" and "+ num2 + " is " +sum+ " difference is "+difference+" product is "+ product+ " and division is "+division );
+        System.out.print("The sum of "+num1 +" and "+ num2 + " is " +sum+ " difference is "+difference+" product is "+ product+ " and division is "+division );
     }
 }

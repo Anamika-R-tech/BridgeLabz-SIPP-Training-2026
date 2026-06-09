@@ -5,6 +5,6 @@ public class totalPrice {
         int quantity = sc.nextInt();
         int unitPrice = sc.nextInt();
         int totalPrice = quantity*unitPrice;
-        System.out.println("The total price is "+totalPrice);
+        System.out.print("The total price is "+totalPrice);
     }
 }
