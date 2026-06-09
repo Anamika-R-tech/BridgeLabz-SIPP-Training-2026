@@ -15,7 +15,7 @@ public class raviAnnualBonus {
         float membershipFee = sc.nextFloat();
 
         int annualBonus =(12*salary)/100;
-        System.out.print("Hello "+name+", Your annual Bonus is " +annualBonus+".");
+        System.out.print(name+", Your annual Bonus is " +annualBonus+".");
 
     }
 }
