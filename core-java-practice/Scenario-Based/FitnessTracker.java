@@ -1,6 +1,12 @@
-import java.util.Scanner;
+// Maya, a fitness coach, wants to record the BMI of her clients.
+// ●              Ask for height and weight.
+// ●              Use formula BMI = weight / (height * height)
+// ●              Print category using if-else: Underweight, Normal, Overweight.
+ 
+// Use clear variable names and comments to maintain code hygiene.
 
-public class BMICalculator {
+import java.util.Scanner;
+public class FitnessTracker {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -26,5 +32,7 @@ public class BMICalculator {
         } else {
             System.out.println("Obese");
         }
+
+        sc.close();
     }
 }
