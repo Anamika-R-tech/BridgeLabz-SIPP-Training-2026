@@ -21,7 +21,7 @@ class Pair<T, U> {
     }
 }
 
-public class Main {
+public class GenericPairExample {
     public static void main(String[] args) {
         Pair<String, Integer> p1 = new Pair<>("Anamika", 101);
         p1.display();
